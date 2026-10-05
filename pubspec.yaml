@@ -1,0 +1,29 @@
+name: face_access_auth
+description: Device biometric authentication with configurable foreground location capture, typed results, and explicit platform limitations for face authentication.
+version: 0.1.0
+repository: https://github.com/badarinarayana223/face_access_auth
+issue_tracker: https://github.com/badarinarayana223/face_access_auth/issues
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^14.1.1
+  local_auth: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+platforms:
+  android:
+  ios:
+
+topics:
+  - authentication
+  - biometrics
+  - location
